@@ -10,9 +10,9 @@ Input: The input consists of several sections. The beginning of each section is 
 Output: The optimized route for each bag <Bag_Number> <point_1> <point_2> [<point_3>, …] : <total_travel_time> 
 The output should be in the same order as the Bag list section of the input.
 
-## Example Input:
+```## Example Input:
 
-```Section: Conveyor System
+Section: Conveyor System
 Concourse_A_Ticketing A5 5
 A5 BaggageClaim 5
 A5 A10 4
@@ -41,10 +41,10 @@ UA18 A5 LAX 10:15
 0004 A8 UA18
 0005 A7 ARRIVAL .```
 
-```## Example Output:
+## Example Output:
 
 0001 Concourse_A_Ticketing A5 A1 : 11
 0002 A5 A1 A2 A3 A4 : 9
 0003 A2 A1 : 1
 0004 A8 A9 A10 A5 : 6
-0005 A7 A8 A9 A10 A5 BaggageClaim : 12```
+0005 A7 A8 A9 A10 A5 BaggageClaim : 12
