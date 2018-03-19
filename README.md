@@ -14,8 +14,8 @@ Section 3: Bag list Format: <bag_number> <entry_point> <flight_id></br>
 ### Output: 
 The optimized route for each bag <Bag_Number> <point_1> <point_2> [<point_3>, …] : <total_travel_time> </br>
 The output should be in the same order as the Bag list section of the input.
-
-``` Example Input:
+```
+Example Input:
 
 Section: Conveyor System
 Concourse_A_Ticketing A5 5
