@@ -1,4 +1,5 @@
-#Airport-Baggage-Routing-System
+# Airport-Baggage-Routing-System
+
 Denver International Airport has decided to give an automated baggage system another shot. The hardware and tracking systems from the previous attempt are still in place, they just need a system to route the baggage.
 The system will route baggage checked, connecting, and terminating in Denver.
 You have been asked to implement a system that will route bags to their flights or the proper baggage claim.
@@ -8,9 +9,9 @@ Input: The input consists of several sections. The beginning of each section is 
 
 Output: The optimized route for each bag <Bag_Number> <point_1> <point_2> [<point_3>, …] : <total_travel_time> ``` The output should be in the same order as the Bag list section of the input.
 
-Example Input:
+# Example Input:
 
-# Section: Conveyor System
+Section: Conveyor System
 Concourse_A_Ticketing A5 5
 A5 BaggageClaim 5
 A5 A10 4
@@ -22,7 +23,7 @@ A10 A9 1
 A9 A8 1
 A8 A7 1
 A7 A6 1
-# Section: Departures
+ Section: Departures
 UA10 A1 MIA 08:00
 UA11 A1 LAX 09:00
 UA12 A1 JFK 09:45
@@ -32,7 +33,7 @@ UA15 A2 JFK 10:00
 UA16 A3 JFK 09:00
 UA17 A4 MHT 09:15
 UA18 A5 LAX 10:15
-# Section: Bags
+ Section: Bags
 0001 Concourse_A_Ticketing UA12
 0002 A5 UA17
 0003 A2 UA10
