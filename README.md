@@ -11,7 +11,7 @@ Output: The optimized route for each bag <Bag_Number> <point_1> <point_2> [<poin
 
 ## Example Input:
 
-Section: Conveyor System
+```Section: Conveyor System
 Concourse_A_Ticketing A5 5
 A5 BaggageClaim 5
 A5 A10 4
@@ -38,7 +38,7 @@ UA18 A5 LAX 10:15
 0002 A5 UA17
 0003 A2 UA10
 0004 A8 UA18
-0005 A7 ARRIVAL
+0005 A7 ARRIVAL```
 
 ## Example Output:
 
